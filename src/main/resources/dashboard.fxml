@@ -1,14 +1,17 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.*?>
 <?import javafx.geometry.Insets?>
 
+
 <VBox spacing="10" xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.lawnmowerdashboard.controller.DashboardController"
-      alignment="CENTER" padding="20">
+      alignment="CENTER">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
 
     <Label text="Automotive Lawn Mower Dashboard" style="-fx-font-size: 20px;"/>
 
