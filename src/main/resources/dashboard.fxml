@@ -1,0 +1,21 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.lawnmowerdashboard.controller.DashboardController"
+      alignment="CENTER" padding="20">
+
+    <Label text="Automotive Lawn Mower Dashboard" style="-fx-font-size: 20px;"/>
+
+    <Label fx:id="batteryLabel"/>
+    <Label fx:id="rpmLabel"/>
+    <Label fx:id="speedLabel"/>
+    <Label fx:id="ignitionLabel"/>
+
+    <Button text="Refresh" onAction="#onRefresh"/>
+</VBox>
